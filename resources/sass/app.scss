@@ -1,0 +1,267 @@
+//
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    // text-align: center;
+    color: #2c3e50;
+}
+
+
+// CSS HEADER 
+.container-header {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    img {
+        padding: 1rem 0px;
+    }
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    img {
+        padding: 1rem 0px;
+    }
+}
+
+.ul-nav li {
+    display: inline-block;
+    padding: 48.5px 1rem;
+    border-bottom: 10px solid transparent;
+    margin-bottom: -10px;
+
+    a {
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: black;
+    }
+
+    &:hover {
+        color: rgb(2 130 249);
+        border-bottom: 10px solid rgb(2 130 249);
+    }
+
+    &:hover a {
+        color: rgb(2 130 249);
+    }
+}
+
+// FINE CSS HEADER 
+
+// STILE MAIN
+.container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 5rem 0px;
+    position: relative;
+}
+
+.jumbo {
+    height: 400px;
+    background-image: url(../images/jumbotron.jpg);
+    background-position-x: center;
+}
+
+.current-series {
+    background-color: #0282f9;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1rem 2rem;
+    position: absolute;
+    top: -28px;
+    left: -50px;
+    cursor: pointer;
+}
+
+.load-more {
+    background-color: #0282f9;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 1rem 2rem;
+    margin: auto;
+    margin-bottom: -2rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.blu {
+    background-color: rgb(2 130 249);
+}
+
+.container-2 {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0px;
+}
+
+.black {
+    background-color: black;
+}
+
+.list-main {
+    display: flex;
+    gap: 50px;
+
+    li {
+        display: flex;
+        align-items: center;
+        padding: 2rem 0px;
+
+        img {
+            width: 45px;
+            height: 45px;
+            object-fit: contain;
+            margin-right: 10px;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+            text-transform: uppercase;
+            display: flex;
+            align-items: center;
+        }
+    }
+}
+
+// STILE CARTA
+.carta {
+    width: calc(100% / 6 - 1rem);
+}
+
+.immagine {
+    margin-bottom: 10px;
+
+    img {
+        width: 100%;
+    }
+}
+
+.titolo {
+    color: white;
+    text-transform: uppercase;
+    font: 1.3rem;
+}
+
+// FINE STILE MAIN
+
+
+
+// CSS FOOTER 
+.sfondo-footer {
+    background-image: url(../images/footer-bg.jpg);
+    background-color: black;
+}
+
+.container-footer {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    gap: 1rem;
+    padding: 5rem 0px;
+    position: relative;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.flexato {
+    display: flex;
+    height: 400px;
+    overflow: hidden;
+    padding: 1rem 0px;
+    align-items: center;
+}
+
+.left-side {
+    display: flex;
+    width: 70%;
+    gap: 2rem;
+}
+
+.right-side img {
+    width: 100%;
+}
+
+.credits {
+    background-color: hsl(0deg 0% 19%);
+}
+
+.lista-footer {
+    list-style: none;
+    color: white;
+    margin-top: 2rem;
+
+    li {
+        padding: 3px 0px;
+    }
+
+    a {
+        color: gray;
+        text-decoration: none;
+    }
+
+    h3 {
+        color: white;
+    }
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+
+.credits-left {
+    width: 65%;
+
+    button {
+        padding: 10px 15px;
+        background-color: transparent;
+        border: 2px solid hsl(211deg 91% 50%);
+        color: white;
+        cursor: pointer;
+    }
+}
+
+.credits-right {
+    width: 35%;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    h3 {
+        color: hsl(211deg 91% 50%);
+        cursor: pointer;
+    }
+
+    div {
+        cursor: pointer;
+    }
+}
+
+// FINE CSS FOOTER 
