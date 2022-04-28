@@ -58,6 +58,8 @@ Route::get('/{id}', function ($id) {
     return view('guest.template.carta', [
         'title' => $cartaSelezionata['series'] . '- DC',
         'carta' => $cartaSelezionata,
+
+
         'linknav' => $linknav,
         'linkdc' => $linkdc,
         'linkdccomics' => $linkdccomics,
