@@ -15,7 +15,7 @@
             @foreach ($carte as $carta)
             <div class="carta">
                 <div class="immagine"><img src="{{ $carta['thumb'] }}" alt="titolo" /></div>
-                <div class="titolo">{{ $carta['series'] }}</div>
+                <div class="titolo">{{ $carta['title'] }}</div>
               </div>
             @endforeach
 
