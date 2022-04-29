@@ -105,7 +105,7 @@
             </div>
 
             <div class="container-3">
-                <ul class="list-main">
+                <ul class="list-main-carta">
 
                     @foreach ($linkmain as $link)
                     <li class="bright">

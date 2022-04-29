@@ -357,7 +357,18 @@
   border-top: 1px solid black;
 }
 
-.list-main .bright:first-child {
+.list-main-carta {
+  display: flex;
+}
+.list-main-carta img {
+  width: 45px;
+  height: 45px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-right: 10px;
+}
+
+.list-main-carta .bright:first-child {
   border-left: 1px solid black;
 }
 

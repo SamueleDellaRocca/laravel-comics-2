@@ -407,8 +407,19 @@
     border-top: 1px solid black;
 }
 
+.list-main-carta {
+    display: flex;
 
-.list-main .bright:first-child {
+    img {
+        width: 45px;
+        height: 45px;
+        object-fit: contain;
+        margin-right: 10px;
+    }
+}
+
+
+.list-main-carta .bright:first-child {
     border-left: 1px solid black;
 }
 
