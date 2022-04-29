@@ -289,6 +289,10 @@
     border: 1px solid black;
 }
 
+.uppercase {
+    text-transform: uppercase;
+}
+
 .mb {
     margin-bottom: 1.7rem;
 }
@@ -329,4 +333,101 @@
     text-align: end;
 }
 
+.grigio {
+    background-color: #f6f6f6;
+}
+
 // FINE 
+
+
+// SEZIONE TALENT E SPECS
+
+.container-grigio {
+    display: flex;
+    align-items: stretch;
+    gap: 2rem;
+}
+
+.talent {
+    width: calc(50% - 1rem);
+
+    .sezione-t-s {
+        display: flex;
+        justify-content: space-between;
+        gap: 8rem;
+        padding: 1rem 0px;
+        border-bottom: 1px solid black;
+
+
+        .titolo-t-s {
+            width: 30%;
+        }
+
+        .descrizione-t-s {
+            color: hsl(211deg 91% 50%);
+        }
+    }
+
+    h2 {
+        padding-bottom: 1rem;
+        border-bottom: 1px solid black;
+    }
+}
+
+.specs {
+    width: calc(50% - 1rem);
+
+    h2 {
+        padding-bottom: 1rem;
+        border-bottom: 1px solid black;
+    }
+
+    .sezione-t-s {
+        display: flex;
+        gap: 5rem;
+        padding: 1rem 0px;
+        border-bottom: 1px solid black;
+
+
+        .titolo-t-s {
+            width: 30%;
+        }
+
+        .comic {
+            color: hsl(211deg 91% 50%);
+            text-transform: uppercase;
+        }
+    }
+}
+
+.container-3 {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid black;
+}
+
+
+.list-main .bright:first-child {
+    border-left: 1px solid black;
+}
+
+.bright {
+    display: flex;
+    align-items: center;
+    padding: 2rem 20px;
+    filter: brightness(0.5);
+    border-right: 1px solid black;
+}
+
+.reverse {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 2px;
+}
+
+// FINE SEZIONE
