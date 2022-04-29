@@ -14,8 +14,10 @@
 
             @foreach ($carte as $carta)
             <div class="carta">
+              <a style="text-decoration: none" href="{{ route('carta',['id'=>$carta['id']]) }}">
                 <div class="immagine"><img src="{{ $carta['thumb'] }}" alt="titolo" /></div>
                 <div class="titolo">{{ $carta['title'] }}</div>
+              </a>
               </div>
             @endforeach
 

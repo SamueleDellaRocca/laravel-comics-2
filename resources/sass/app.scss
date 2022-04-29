@@ -269,7 +269,11 @@
 
 
 
-// CSS CARTA
+// CSS PAGINA CARTA
+.mb-n {
+    margin-bottom: -55px;
+}
+
 .container-flexato {
     display: flex;
     gap: 2rem;
@@ -278,6 +282,11 @@
 .carta-immagine {
     position: absolute;
     top: -334px;
+
+    img {
+        padding: 0px;
+        border: 6px solid white;
+    }
 }
 
 .verde {

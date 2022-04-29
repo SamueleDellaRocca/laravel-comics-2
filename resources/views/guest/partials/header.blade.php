@@ -1,6 +1,8 @@
 <header>
     <div class="container-header">
-      <img src={{url("/images/dc-logo.png")}} alt="logo dc" />
+      <a href="{{ route('home') }}">
+        <img src={{url("/images/dc-logo.png")}} alt="logo dc" />
+      </a>
       <ul class="ul-nav">
         
         @foreach ($linknav as $elemento)

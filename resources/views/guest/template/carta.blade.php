@@ -5,7 +5,7 @@
     <main>
 
         <div class="blu">
-            <div class="jumbo"></div>
+            <div class="jumbo mb-n"></div>
             <div class="container"></div>
         </div>
         
